@@ -1,0 +1,217 @@
+#
+#
+#
+
+newmtl Bay_Face_003 Mesh_hubface
+illum 2
+Ka 0.176500 0.064400 0.064400
+Kd 0.537300 0.196100 0.196100
+Ks 0.005000 0.001800 0.001800
+Ns 13.084200
+map_Kd hubDiffuse.jpg
+
+newmtl Bay_Face_02 Mesh_hubface
+illum 2
+Ka 0.176500 0.064400 0.064400
+Kd 0.537300 0.196100 0.196100
+Ks 0.005000 0.001800 0.001800
+Ns 13.084200
+map_Kd hubDiffuse.jpg
+
+newmtl Blocks005 Mesh_block
+illum 2
+Ka 0.180400 0.063600 0.171300
+Kd 0.545100 0.192200 0.517600
+Ks 0.065000 0.022900 0.061700
+Ns 13.084200
+map_Kd std.jpg
+
+newmtl Blocks006 Mesh_block
+illum 2
+Ka 0.180400 0.063600 0.171300
+Kd 0.545100 0.192200 0.517600
+Ks 0.065000 0.022900 0.061700
+Ns 13.084200
+map_Kd std.jpg
+
+newmtl Blocks007 Mesh_block
+illum 2
+Ka 0.180400 0.063600 0.171300
+Kd 0.545100 0.192200 0.517600
+Ks 0.065000 0.022900 0.061700
+Ns 13.084200
+map_Kd std.jpg
+
+newmtl Blocks008 Mesh_block
+illum 2
+Ka 0.180400 0.063600 0.171300
+Kd 0.545100 0.192200 0.517600
+Ks 0.065000 0.022900 0.061700
+Ns 13.084200
+map_Kd std.jpg
+
+newmtl Cable_Brac002 Mesh_cable_brackets
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.568600 0.584300 0.513700
+Ks 0.000000 0.000000 0.000000
+Ns 52.901001
+
+newmtl Cables002 Mesh_cables
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.549000 0.564700 0.568600
+Ks 0.000000 0.000000 0.000000
+Ns 52.901001
+
+newmtl Docking_Bay004 Mesh_Bay_Side
+illum 2
+Ka 0.100000 0.100000 0.100000
+Kd 0.700000 0.700000 0.700000
+Ks 0.270000 0.270000 0.270000
+Ns 40.000000
+map_Kd bs.jpg
+
+newmtl Docking_Bay004 Mesh_Bay_Top
+illum 2
+Ka 0.100000 0.100000 0.100000
+Kd 0.700000 0.700000 0.700000
+Ks 0.270000 0.270000 0.270000
+Ns 40.000000
+map_Kd btpanel.jpg
+
+newmtl Docking_Bay02 Mesh_Bay_Side
+illum 2
+Ka 0.100000 0.100000 0.100000
+Kd 0.700000 0.700000 0.700000
+Ks 0.270000 0.270000 0.270000
+Ns 40.000000
+map_Kd bs.jpg
+
+newmtl Docking_Bay02 Mesh_Bay_Top
+illum 2
+Ka 0.100000 0.100000 0.100000
+Kd 0.700000 0.700000 0.700000
+Ks 0.270000 0.270000 0.270000
+Ns 40.000000
+map_Kd btpanel.jpg
+
+newmtl Hub001 Mesh_spindle
+illum 2
+Ka 0.063600 0.157000 0.180400
+Kd 0.192200 0.474500 0.545100
+Ks 0.001800 0.004400 0.005000
+Ns 13.084200
+map_Kd spoke_Diff.jpg
+
+newmtl Shape003 Mesh_Material__302
+illum 2
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 10.000000
+map_Kd pc-bw.png
+
+newmtl Spoke005 Mesh_spokes
+illum 2
+Ka 0.034700 0.219600 0.213200
+Kd 0.105900 0.670600 0.651000
+Ks 0.009900 0.063000 0.061200
+Ns 13.084200
+map_Kd spoke.jpg
+
+newmtl Spoke006 Mesh_spokes
+illum 2
+Ka 0.034700 0.219600 0.213200
+Kd 0.105900 0.670600 0.651000
+Ks 0.009900 0.063000 0.061200
+Ns 13.084200
+map_Kd spoke.jpg
+
+newmtl Spoke007 Mesh_spokes
+illum 2
+Ka 0.034700 0.219600 0.213200
+Kd 0.105900 0.670600 0.651000
+Ks 0.009900 0.063000 0.061200
+Ns 13.084200
+map_Kd spoke.jpg
+
+newmtl Spoke008 Mesh_spokes
+illum 2
+Ka 0.034700 0.219600 0.213200
+Kd 0.105900 0.670600 0.651000
+Ks 0.009900 0.063000 0.061200
+Ns 13.084200
+map_Kd spoke.jpg
+
+newmtl Spoke_Supp002 Mesh_spoke_support
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.486300 0.411800 0.411800
+Ks 0.000000 0.000000 0.000000
+Ns 52.901001
+
+newmtl Wheel003 Mesh_Face
+illum 2
+Ka 0.100000 0.100000 0.100000
+Kd 0.700000 0.700000 0.700000
+Ks 0.270000 0.270000 0.270000
+Ns 40.000000
+map_Kd window_col.jpg
+
+newmtl Wheel003 Mesh_Rim
+illum 2
+Ka 0.100000 0.100000 0.100000
+Kd 0.700000 0.700000 0.700000
+Ks 0.270000 0.270000 0.270000
+Ns 40.000000
+map_Kd std.jpg
+
+newmtl Wheel004 Mesh_Face
+illum 2
+Ka 0.100000 0.100000 0.100000
+Kd 0.700000 0.700000 0.700000
+Ks 0.270000 0.270000 0.270000
+Ns 40.000000
+map_Kd window_col.jpg
+
+newmtl Wheel004 Mesh_Rim
+illum 2
+Ka 0.100000 0.100000 0.100000
+Kd 0.700000 0.700000 0.700000
+Ks 0.270000 0.270000 0.270000
+Ns 40.000000
+map_Kd std.jpg
+
+newmtl Wheel02 Mesh_Face
+illum 2
+Ka 0.100000 0.100000 0.100000
+Kd 0.700000 0.700000 0.700000
+Ks 0.270000 0.270000 0.270000
+Ns 40.000000
+map_Kd window_col.jpg
+
+newmtl Wheel02 Mesh_Rim
+illum 2
+Ka 0.100000 0.100000 0.100000
+Kd 0.700000 0.700000 0.700000
+Ks 0.270000 0.270000 0.270000
+Ns 40.000000
+map_Kd std.jpg
+
+newmtl Wheel_Gird002 Mesh_wheel_girders
+illum 2
+Ka 0.780400 0.690200 0.682400
+Kd 0.780400 0.690200 0.682400
+Ks 0.000000 0.000000 0.000000
+Ns 66.000000
+map_Kd rust.JPG
+
+newmtl Wheel_Gird01 Mesh_wheel_girders
+illum 2
+Ka 0.780400 0.690200 0.682400
+Kd 0.780400 0.690200 0.682400
+Ks 0.000000 0.000000 0.000000
+Ns 66.000000
+map_Kd rust.JPG
+

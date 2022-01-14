@@ -5,8 +5,8 @@
 *.slo
 *.lo
 *.o
-*.obj
 *x64
+*.obj
 
 # Precompiled Headers
 *.gch
@@ -22,7 +22,7 @@
 *.smod
 
 # 3D models
-!Resources/*.obj
+!OpenGL-Space-Game/Resources/Models/*.obj
 
 # Compiled Static libraries
 *.lai

@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{84bc91f4-b541-49cb-bfa1-ad51f77fd50a}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\BulletObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\3DModelLoading\MD2\anorms.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\3DModelLoading\MD2\MD2_defines.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\3DModelLoading\MD2\MD2_Loader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\3DModelLoading\MD2\MD2_Model.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\3DModelLoading\MD2\MD2_structs.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\Font\Font3D.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\Bullet\PhysicsDraw.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\Bullet\PhysicsObj.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\Bullet\BulletScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\ImageLoading\ImageLoading_helper_methods.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\State\GameStates\DockState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\DrawableObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\SkyBox.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\PlayerBullet.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\PlayerSpace.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\SpaceStation.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\State\GameStates\BulletState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\State\GameStates\SpaceState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\State\GameStates\TransitionState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\State\StateSystem.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\TriangleCollection\AnimatedModel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Game.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\TriangleCollection\Mesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\TriangleCollection\Model.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\Managers\UniverseManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\Managers\ResourceManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\Math\Transform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\Input\ARMInput.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\Input\BaseInput.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\Window\ARMWindow.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\Window\BaseWindow.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\BaseObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Camera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\ImgGuiUI.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Planet.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Player.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\FileHandling\MyFiles.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\ImageLoading\stb_image.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\ImGUI\imconfig.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\ImGUI\imgui.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\ImGUI\imgui_impl_opengl3.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\ImGUI\imgui_internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\ImGUI\imstb_rectpack.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\ImGUI\imstb_textedit.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\ImGUI\imstb_truetype.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\Shader\Shader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\TinyObj\tiny_obj_loader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\TriangleCollection\MeshModel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\Window\XWindow.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utils\Input\XInput.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\BulletObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\3DModelLoading\MD2\MD2_Loader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\Font\Font3D.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\Bullet\PhysicsDraw.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\Bullet\PhysicsObj.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\Bullet\BulletScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\GL_include.h" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\State\GameStates\DockState.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\State\GameStates\BulletState.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\State\GameStates\SpaceState.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\PlayerBullet.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\PlayerSpace.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\SkyBox.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\DrawableObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\SpaceStation.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\State\GameStates\TransitionState.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\State\StateSystem.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\TriangleCollection\AnimatedModel.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Externals\glad\src\glad.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</DeploymentContent>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\TriangleCollection\Mesh.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\TriangleCollection\Model.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\Managers\UniverseManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\Managers\ResourceManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\Math\Transform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\Input\ARMInput.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\Input\BaseInput.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\Window\ARMWindow.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\Window\BaseWindow.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Main.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\BaseObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Camera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\ImgGuiUI.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Planet.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Player.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\FileHandling\MyFiles.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\ImGUI\imgui.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\ImGUI\imgui_draw.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\ImGUI\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\ImGUI\imgui_widgets.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\Shader\Shader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\TinyObj\tiny_obj_loader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\TriangleCollection\MeshModel.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\Window\XWindow.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utils\Input\XInput.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Fonts\atari-font.bmp" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Fonts\fontwhite.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\brian_01.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\brian_01_em.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\brian_02.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\brian_02_em.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\brian_03.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\brian_03_em.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\container2.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\modelpack0\samourai\Samourai.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\BlueGlowEntrance.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\bs.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\bsBump.gif" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\bsLight.gif" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\btBump.gif" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\btLite.gif" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\btpanel.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\hubB.gif" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\hubDiffuse.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\Map__9_Raytrace.tga" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\pc-bw.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\rust.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\signage.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\space-bg.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\spoke.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\spokeBump.gif" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\spoke_Diff.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\std.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\the_barrier.001.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\windows.gif" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\window_col.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station_interior\a4.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station_interior\column_UVMap_color.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station_interior\out_side_UVMap_color.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station_interior\Railings_texture_UVMap_color.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station_interior\Room_1_Done_UVMap_color_3.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station_interior\t1_UVMap_color.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station_interior\texture_3_UVMap_color.png.001.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station_interior\texture_3_UVMap_rough.png.001.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\spaceDomeT.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Models\SpaceShip.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Dice.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\Harvey2.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\skyboxes\sky1\Side1.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\skyboxes\sky1\Side2.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\skyboxes\sky1\Side3.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\skyboxes\sky1\Side4.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\skyboxes\sky1\Side5.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\Textures\skyboxes\sky1\Side6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\big_floor.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\brian_01.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\brian_02.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\brian_03.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\container_box.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\modelpack0\md2anim.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\modelpack0\samourai\Samourai.md2" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\planetbase.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\simple_cube.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\simple_gas_cloud_base.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\station_trigger.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\TARDIS-FIGRinconstruct.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\TARDIS-FIGR_mkIII_station.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\TheBigTardisStation.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station_interior\SpaceStationScene.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station_interior\SpaceStationScene_CollisonConvex.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\spaceDome.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\SpaceShip.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\test_human_player.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\thatone\D.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\thatone\I.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\thatone\N.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\thatone\O.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\default.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\default.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\default_notex.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\default_notex.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\diffused.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\diffused.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\diffused_notexture.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\diffused_notexture.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\md2anim_interpolated.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\md2anim_interpolated.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\perlinnoise.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\perlinnoise.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\perlin_in_vert.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\perlin_in_vert.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\rand.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\rand.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\simpletri.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\simpletri.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\skyshader.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\skyshader.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\planet.frag">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\planet.vert">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\textshader.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shaders\textshader.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\brian_01.obj">
+      <FileType>Document</FileType>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\brian_02.obj">
+      <FileType>Document</FileType>
+    </Media>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\brian_03.obj">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\spaceDome.obj">
+      <FileType>Document</FileType>
+    </None>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\SpaceShip.obj">
+      <FileType>Document</FileType>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\READ_ME.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\planetbase.obj">
+      <FileType>Document</FileType>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\TARDIS-FIGRinconstruct.obj">
+      <FileType>Document</FileType>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\TARDIS-FIGR_mkIII_station.obj">
+      <FileType>Document</FileType>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\TheBigTardisStation.obj">
+      <FileType>Document</FileType>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\test_human_player.obj">
+      <FileType>Document</FileType>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\big_floor.obj">
+      <FileType>Document</FileType>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\simple_cube.obj">
+      <FileType>Document</FileType>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Models\thatone\D.obj">
+      <FileType>Document</FileType>
+    </None>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\thatone\I.obj">
+      <FileType>Document</FileType>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\thatone\N.obj">
+      <FileType>Document</FileType>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\thatone\O.obj">
+      <FileType>Document</FileType>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station\station_trigger.obj">
+      <FileType>Document</FileType>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station_interior\SpaceStationScene.obj">
+      <FileType>Document</FileType>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\simple_station_interior\SpaceStationScene_CollisonConvex.obj">
+      <FileType>Document</FileType>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\container_box.obj">
+      <FileType>Document</FileType>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="$(MSBuildThisFileDirectory)Resources\Models\simple_gas_cloud_base.obj">
+      <FileType>Document</FileType>
+    </Media>
+  </ItemGroup>
+</Project>
